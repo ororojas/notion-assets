@@ -164,7 +164,8 @@ for i, key in enumerate(['deadlines', 'school', 'jobs', 'money', 'life', 'person
 
 # Arch tiles for the home-page navigation
 for i, key in enumerate(['deadlines', 'school', 'jobs', 'money', 'life', 'personal',
-                         'career', 'goals', 'f-life', 'f-personal']):
+                         'career', 'goals', 'f-life', 'f-personal',
+                         'projects', 'school-career', 'c-personal', 'accounts']):
     tile(key, SHAPE[key], seed=60 + i)
 
 print('covers:', len(os.listdir(COVERS)), 'tiles:', len(os.listdir(TILES)))
